@@ -1,0 +1,33 @@
+Para abrir la consola, debemos hacer clic derecho en cualquier lado del directorio de la carpeta 
+del proyecto, luego seleccionar Open Git Bash here
+
+-- : los guiones se usan como agregar argumentos
+
+git config --global user.name "edgarmarinc" : para registrarse a la cuenta de git
+
+git config --global user.email "edgar.marin@tsoftglobal.com" : para registrarse a la cuenta de git
+
+git config --global color.ui true : para activar los colores en la consola
+
+git help : para solicitar ayuda
+
+git help init : se abrirá una pagina donde nos explica como usar el comando init
+
+git config --global -e : para conocer todas las configuraciones globales que existen
+para salir de esta ventana, hay que hacer clic en ESC y luego tipear :q para volver a la consola
+
+clear : para limpiar la pantalla
+
+git init : para inicializar el repositorio
+
+git status : para concer el estado de nuestro repositorio
+
+git add <nombre del archivo> : para agregar archivos a github individualmente
+
+git commint -m "Mensaje" : para confirmar y guardar los cambios solicitados en github, el mensaje debe ser bien 
+descriptivo comentando el cambio que se le hace al archivo que se está subiendo al repositorio de github
+
+
+
+
+
