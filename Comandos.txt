@@ -1,7 +1,11 @@
 Para abrir la consola, debemos hacer clic derecho en cualquier lado del directorio de la carpeta 
-del proyecto, luego seleccionar Open Git Bash here
+del proyecto, luego seleccionar Open Git Bash here (terminal de Git)
 
--- : los guiones se usan como agregar argumentos
+-- : los guiones se usan para agregar argumentos
+
+l : 
+
+e : edit 
 
 git config --global user.name "edgarmarinc" : para registrarse a la cuenta de git
 
@@ -9,23 +13,59 @@ git config --global user.email "edgar.marin@tsoftglobal.com" : para registrarse 
 
 git config --global color.ui true : para activar los colores en la consola
 
+git init : para inicializar el repositorio
+
 git help : para solicitar ayuda
 
-git help init : se abrirá una pagina donde nos explica como usar el comando init
+git help init : se abrirá una pagina donde nos explica como usar el comando init (se puede cambiar el init por cualquier 
+otro comando, ejemplos: git help push, git help branch
 
 git config --global -e : para conocer todas las configuraciones globales que existen
 para salir de esta ventana, hay que hacer clic en ESC y luego tipear :q para volver a la consola
 
-clear : para limpiar la pantalla
-
-git init : para inicializar el repositorio
+clear : para limpiar la pantalla de la terminal
 
 git status : para concer el estado de nuestro repositorio
 
-git add <nombre del archivo> : para agregar archivos a github individualmente
+git add <nombre del archivo> : para agregar archivos a staging para luego ser subidos a github
+
+git add <nombre de carpeta/ > : para agregar carpeta a staging para luego ser subidos a github
+
+git add *.ext : para agregar archivos de cierta extensión (txt, png, etc.) a staging para luego ser subidos a github
+
+git add . : para agregar todos los archivos del directorio a staging para luego ser subidos a github
+
+git rm --cached <nombre de archivo o carpeta/ > : para remover archivo/carpeta de staging y no subirlos con un commit
 
 git commint -m "Mensaje" : para confirmar y guardar los cambios solicitados en github, el mensaje debe ser bien 
 descriptivo comentando el cambio que se le hace al archivo que se está subiendo al repositorio de github
+
+git log : para conocer los cambios que se han hecho en los archivos subidos con commit a github 
+
+git remote add origin https://github.com/edgarmarinc/Prueba.git : para conectar nuestro repositorio local con el 
+repositorio remoto
+
+git branch main : para crear la rama main en el repositorio remoto
+
+git branch -M main : para actualizar el proyecto de git en el repositorio remoto gibhut en la rama llamada main (creada
+con el comando anterior)
+
+git push : para actualizar el proyecto de git en el repositorio remoto gibhut
+
+git push -u origin main : para definir el origen de la rama donde se va a actualizar el proyecto en github
+
+git checkout <nombre de rama> : para entrar a una rama
+
+git commit --amend -m "Mensaje" : para enmendar un mensaje mal tipeado al subir un archivo (este comando sólo funciona 
+para el último commit ejecutado
+
+
+
+
+
+
+
+
 
 
 
