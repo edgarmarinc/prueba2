@@ -43,25 +43,27 @@ descriptivo comentando el cambio que se le hace al archivo que se está subiendo
 git log : para conocer los cambios que se han hecho en los archivos subidos con commit a github 
 
 git remote add origin https://github.com/edgarmarinc/Prueba.git : para conectar nuestro repositorio local con el 
-repositorio remoto
+repositorio remoto (primer paso para conectar con repo remoto)
 
 git branch main : para crear la rama main en el repositorio remoto
 
 git branch -M main : para actualizar el proyecto de git en el repositorio remoto gibhut en la rama llamada main (creada
-con el comando anterior)
+con el comando anterior) (segundo paso para conectar con repo remoto)
+
+git push -u origin main : para definir el origen de la rama donde se va a actualizar el proyecto en github (tercer paso
+para conectar con repo remoto, con este comando saldrá una ventana para iniciar sesión en github)
 
 git push : para actualizar el proyecto de git en el repositorio remoto gibhut
-
-git push -u origin main : para definir el origen de la rama donde se va a actualizar el proyecto en github
 
 git checkout <nombre de rama> : para entrar a una rama
 
 git commit --amend -m "Mensaje" : para enmendar un mensaje mal tipeado al subir un archivo (este comando sólo funciona 
 para el último commit ejecutado
 
+git merge <rama> : para unir/combinar una rama 
 
-
-
+git branch --merged : para mostrar las ramas que se han unido/combinado con otra rama, si no hay ramas unidas entonces
+solo se muestra la rama principal
 
 
 
