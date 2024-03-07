@@ -60,13 +60,14 @@ git checkout <nombre de rama> : para entrar a una rama
 git commit --amend -m "Mensaje" : para enmendar un mensaje mal tipeado al subir un archivo (este comando sólo funciona 
 para el último commit ejecutado
 
-git merge <rama> : para unir/combinar una rama 
+git merge <nuevarama> : para unir/combinar la rama en donde estamos ubicados a una nueva rama 
 
 git branch --merged : para mostrar las ramas que se han unido/combinado con otra rama, si no hay ramas unidas entonces
 solo se muestra la rama principal
 
+git branch -d <rama> : para eliminar una rama del repositorio local
 
-
+git push origin --delete <rama> : para eliminar una rama del repositorio remoto
 
 
 
